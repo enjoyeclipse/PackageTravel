@@ -1,0 +1,1 @@
+F:\PackageTravel\PackageTravel\db\bin\mongod.exe --logpath F:\PackageTravel\PackageTravel\db\logs\MongoDB.log --logappend --dbpath F:\PackageTravel\PackageTravel\db\data --directoryperdb 

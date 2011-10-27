@@ -1,0 +1,1 @@
+F:\PackageTravel\PackageTravel\db\bin\mongod --remove --serviceName "Mongo DB"
