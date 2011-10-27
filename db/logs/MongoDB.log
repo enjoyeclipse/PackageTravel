@@ -1,0 +1,642 @@
+Wed Oct 26 22:49:15 Mongo DB : starting : pid = 0 port = 27017 dbpath = ..\db\data master = 0 slave = 0  32-bit 
+
+** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+**       see http://blog.mongodb.org/post/137788967/32-bit-limitations for more
+
+Wed Oct 26 22:49:15 Assertion: 10296:dbpath (..\db\data) does not exist
+Wed Oct 26 22:49:15   exception in initAndListen std::exception: dbpath (..\db\data) does not exist, terminating
+Wed Oct 26 22:49:15  dbexit: 
+Wed Oct 26 22:49:15 	 shutdown: going to close listening sockets...
+Wed Oct 26 22:49:15 	 shutdown: going to flush oplog...
+Wed Oct 26 22:49:15 	 shutdown: going to close sockets...
+Wed Oct 26 22:49:15 	 shutdown: waiting for fs preallocator...
+Wed Oct 26 22:49:15 	 shutdown: closing all files...
+Wed Oct 26 22:49:15      closeAllFiles() finished
+Wed Oct 26 22:49:15  dbexit: really exiting now
+Wed Oct 26 22:49:50 Mongo DB : starting : pid = 0 port = 27017 dbpath = ..\db\data master = 0 slave = 0  32-bit 
+
+** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+**       see http://blog.mongodb.org/post/137788967/32-bit-limitations for more
+
+Wed Oct 26 22:49:50 db version v1.4.1, pdfile version 4.5
+Wed Oct 26 22:49:50 git version: 5b29dec9707d50979c283057ca1b1572351eef9a
+Wed Oct 26 22:49:50 sys info: windows (5, 1, 2600, 2, 'Service Pack 3') BOOST_LIB_VERSION=1_35
+Wed Oct 26 22:49:50 waiting for connections on port 27017
+Wed Oct 26 22:49:50 web admin interface listening on port 28017
+Wed Oct 26 22:50:40  CTRL_CLOSE_EVENT signal
+Wed Oct 26 22:50:40 got kill or ctrl-c signal, will terminate after current cmd ends
+Wed Oct 26 22:50:40 now exiting
+Wed Oct 26 22:50:40  dbexit: 
+Wed Oct 26 22:50:40 	 shutdown: going to close listening sockets...
+Wed Oct 26 22:50:40 	 going to close listening socket: 164
+Wed Oct 26 22:50:40 	 going to close listening socket: 172
+Wed Oct 26 22:50:40 	 shutdown: going to flush oplog...
+Wed Oct 26 22:50:40 	 shutdown: going to close sockets...
+Wed Oct 26 22:50:40 Listener: accept() returns -1 errno:0 No error
+Wed Oct 26 22:50:40 	 shutdown: waiting for fs preallocator...
+Wed Oct 26 22:50:40 MiniWebServer: accept() returns -1 errno:0 No error
+Wed Oct 26 22:50:40 	 shutdown: closing all files...
+Wed Oct 26 22:50:40      closeAllFiles() finished
+Wed Oct 26 22:50:40  dbexit: really exiting now
+Wed Oct 26 22:55:33  dbexit: 
+Wed Oct 26 22:55:33 	 shutdown: going to close listening sockets...
+Wed Oct 26 22:55:33 	 shutdown: going to flush oplog...
+Wed Oct 26 22:55:33 	 shutdown: going to close sockets...
+Wed Oct 26 22:55:33 	 shutdown: waiting for fs preallocator...
+Wed Oct 26 22:55:33 	 shutdown: closing all files...
+Wed Oct 26 22:55:33      closeAllFiles() finished
+Wed Oct 26 22:55:33  dbexit: really exiting now
+Wed Oct 26 22:59:47 Mongo DB : starting : pid = 0 port = 27017 dbpath = F:\PackageTravel\PackageTravel\db\data master = 0 slave = 0  32-bit 
+
+** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+**       see http://blog.mongodb.org/post/137788967/32-bit-limitations for more
+
+Wed Oct 26 22:59:47 db version v1.4.1, pdfile version 4.5
+Wed Oct 26 22:59:47 git version: 5b29dec9707d50979c283057ca1b1572351eef9a
+Wed Oct 26 22:59:47 sys info: windows (5, 1, 2600, 2, 'Service Pack 3') BOOST_LIB_VERSION=1_35
+Wed Oct 26 22:59:47 waiting for connections on port 27017
+Wed Oct 26 22:59:47 web admin interface listening on port 28017
+Wed Oct 26 23:01:10  Ctrl-C signal
+Wed Oct 26 23:01:10 got kill or ctrl-c signal, will terminate after current cmd ends
+Wed Oct 26 23:01:10 now exiting
+Wed Oct 26 23:01:10  dbexit: 
+Wed Oct 26 23:01:10 	 shutdown: going to close listening sockets...
+Wed Oct 26 23:01:10 	 going to close listening socket: 152
+Wed Oct 26 23:01:10 Listener: accept() returns -1 errno:0 No error
+Wed Oct 26 23:01:10 	 going to close listening socket: 168
+Wed Oct 26 23:01:10 	 shutdown: going to flush oplog...
+Wed Oct 26 23:01:10 MiniWebServer: accept() returns -1 errno:0 No error
+Wed Oct 26 23:01:10 	 shutdown: going to close sockets...
+Wed Oct 26 23:01:10 	 shutdown: waiting for fs preallocator...
+Wed Oct 26 23:01:10 	 shutdown: closing all files...
+Wed Oct 26 23:01:10      closeAllFiles() finished
+Wed Oct 26 23:01:10  dbexit: really exiting now
+Invalid command: /u
+Allowed options:
+
+General options:
+  -h [ --help ]             show this usage information
+  --version                 show version information
+  -f [ --config ] arg       configuration file specifying additional options
+  -v [ --verbose ]          be more verbose (include multiple times for more 
+                            verbosity e.g. -vvvvv)
+  --quiet                   quieter output
+  --port arg                specify port number
+  --logpath arg             file to send all output to instead of stdout
+  --logappend               append to logpath instead of over-writing
+  --bind_ip arg             local ip address to bind listener - all local ips 
+                            bound by default
+  --dbpath arg (=/data/db/) directory for datafiles
+  --directoryperdb          each database will be stored in a separate 
+                            directory
+  --repairpath arg          root directory for repair files - defaults to 
+                            dbpath
+  --cpu                     periodically show cpu and iowait utilization
+  --noauth                  run without security
+  --auth                    run with security
+  --objcheck                inspect client data for validity on receipt
+  --quota                   enable db quota management
+  --quotaFiles arg          number of files allower per db, requires --quota
+  --appsrvpath arg          root directory for the babble app server
+  --nocursors               diagnostic/debugging option
+  --nohints                 ignore query hints
+  --nohttpinterface         disable http interface
+  --rest                    turn on simple rest api
+  --noscripting             disable scripting engine
+  --noprealloc              disable data file preallocation
+  --smallfiles              use a smaller default file size
+  --nssize arg (=16)        .ns file size (in MB) for new databases
+  --diaglog arg             0=off 1=W 2=R 3=both 7=W+some reads
+  --sysinfo                 print some diagnostic system information
+  --upgrade                 upgrade db if needed
+  --repair                  run repair on all dbs
+  --notablescan             do not allow table scans
+  --syncdelay arg (=60)     seconds between disk syncs (0 for never)
+  --profile arg             0=off 1=slow, 2=all
+  --slowms arg (=100)       value of slow for profile and console log
+  --maxConns arg            max number of simultaneous connections
+  --install                 install mongodb service
+  --remove                  remove mongodb service
+  --service                 start mongodb service
+
+Replication options:
+  --master              master mode
+  --slave               slave mode
+  --source arg          when slave: specify master as <server:port>
+  --only arg            when slave: specify a single database to replicate
+  --pairwith arg        address of server to pair with
+  --arbiter arg         address of arbiter server
+  --slavedelay arg      specify delay (in seconds) to be used when applying 
+                        master ops to slave
+  --fastsync            indicate that this instance is starting from a dbpath 
+                        snapshot of the repl peer
+  --autoresync          automatically resync if slave data is stale
+  --oplogSize arg       size limit (in MB) for op log
+  --opIdMem arg         size limit (in bytes) for in memory storage of op ids
+
+Sharding options:
+  --configsvr           declare this is a config db of a cluster
+  --shardsvr            declare this is a shard db of a cluster
+
+Invalid command: packagetravel
+Allowed options:
+
+General options:
+  -h [ --help ]             show this usage information
+  --version                 show version information
+  -f [ --config ] arg       configuration file specifying additional options
+  -v [ --verbose ]          be more verbose (include multiple times for more 
+                            verbosity e.g. -vvvvv)
+  --quiet                   quieter output
+  --port arg                specify port number
+  --logpath arg             file to send all output to instead of stdout
+  --logappend               append to logpath instead of over-writing
+  --bind_ip arg             local ip address to bind listener - all local ips 
+                            bound by default
+  --dbpath arg (=/data/db/) directory for datafiles
+  --directoryperdb          each database will be stored in a separate 
+                            directory
+  --repairpath arg          root directory for repair files - defaults to 
+                            dbpath
+  --cpu                     periodically show cpu and iowait utilization
+  --noauth                  run without security
+  --auth                    run with security
+  --objcheck                inspect client data for validity on receipt
+  --quota                   enable db quota management
+  --quotaFiles arg          number of files allower per db, requires --quota
+  --appsrvpath arg          root directory for the babble app server
+  --nocursors               diagnostic/debugging option
+  --nohints                 ignore query hints
+  --nohttpinterface         disable http interface
+  --rest                    turn on simple rest api
+  --noscripting             disable scripting engine
+  --noprealloc              disable data file preallocation
+  --smallfiles              use a smaller default file size
+  --nssize arg (=16)        .ns file size (in MB) for new databases
+  --diaglog arg             0=off 1=W 2=R 3=both 7=W+some reads
+  --sysinfo                 print some diagnostic system information
+  --upgrade                 upgrade db if needed
+  --repair                  run repair on all dbs
+  --notablescan             do not allow table scans
+  --syncdelay arg (=60)     seconds between disk syncs (0 for never)
+  --profile arg             0=off 1=slow, 2=all
+  --slowms arg (=100)       value of slow for profile and console log
+  --maxConns arg            max number of simultaneous connections
+  --install                 install mongodb service
+  --remove                  remove mongodb service
+  --service                 start mongodb service
+
+Replication options:
+  --master              master mode
+  --slave               slave mode
+  --source arg          when slave: specify master as <server:port>
+  --only arg            when slave: specify a single database to replicate
+  --pairwith arg        address of server to pair with
+  --arbiter arg         address of arbiter server
+  --slavedelay arg      specify delay (in seconds) to be used when applying 
+                        master ops to slave
+  --fastsync            indicate that this instance is starting from a dbpath 
+                        snapshot of the repl peer
+  --autoresync          automatically resync if slave data is stale
+  --oplogSize arg       size limit (in MB) for op log
+  --opIdMem arg         size limit (in bytes) for in memory storage of op ids
+
+Sharding options:
+  --configsvr           declare this is a config db of a cluster
+  --shardsvr            declare this is a shard db of a cluster
+
+Thu Oct 27 00:05:16 Mongo DB : starting : pid = 0 port = 27017 dbpath = F:\PackageTravel\PackageTravel\db\data master = 0 slave = 0  32-bit 
+
+** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+**       see http://blog.mongodb.org/post/137788967/32-bit-limitations for more
+
+Thu Oct 27 00:05:16 db version v1.4.1, pdfile version 4.5
+Thu Oct 27 00:05:16 git version: 5b29dec9707d50979c283057ca1b1572351eef9a
+Thu Oct 27 00:05:16 sys info: windows (5, 1, 2600, 2, 'Service Pack 3') BOOST_LIB_VERSION=1_35
+Thu Oct 27 00:05:16 waiting for connections on port 27017
+Thu Oct 27 00:05:16 web admin interface listening on port 28017
+Thu Oct 27 00:05:43 connection accepted from 127.0.0.1:13426 #1
+Thu Oct 27 00:05:48 end connection 127.0.0.1:13426
+Thu Oct 27 00:05:48 connection accepted from 127.0.0.1:13427 #2
+Thu Oct 27 00:05:54 connection accepted from 127.0.0.1:13429 #3
+Thu Oct 27 00:05:58 connection accepted from 127.0.0.1:13430 #4
+Thu Oct 27 00:05:58 end connection 127.0.0.1:13427
+Thu Oct 27 00:05:58 end connection 127.0.0.1:13429
+Thu Oct 27 00:05:58 connection accepted from 127.0.0.1:13431 #5
+Thu Oct 27 00:06:08 end connection 127.0.0.1:13430
+Thu Oct 27 00:06:08 connection accepted from 127.0.0.1:13432 #6
+Thu Oct 27 00:06:08 end connection 127.0.0.1:13431
+Thu Oct 27 00:06:08 connection accepted from 127.0.0.1:13433 #7
+Thu Oct 27 00:06:18 end connection 127.0.0.1:13432
+Thu Oct 27 00:06:18 connection accepted from 127.0.0.1:13435 #8
+Thu Oct 27 00:06:18 end connection 127.0.0.1:13433
+Thu Oct 27 00:06:18 connection accepted from 127.0.0.1:13436 #9
+Thu Oct 27 00:06:21 building new index on { _id: 1 } for packagetravel.temporary
+Thu Oct 27 00:06:21 Buildindex packagetravel.temporary idxNo:0 { name: "_id_", ns: "packagetravel.temporary", key: { _id: 1 } }
+Thu Oct 27 00:06:21 done for 0 records 0.019secs
+Thu Oct 27 00:06:21 CMD: drop packagetravel.temporary
+Thu Oct 27 00:06:28 end connection 127.0.0.1:13435
+Thu Oct 27 00:06:28 connection accepted from 127.0.0.1:13437 #10
+Thu Oct 27 00:06:28 end connection 127.0.0.1:13436
+Thu Oct 27 00:06:28 connection accepted from 127.0.0.1:13438 #11
+Thu Oct 27 00:06:38 end connection 127.0.0.1:13437
+Thu Oct 27 00:06:38 connection accepted from 127.0.0.1:13444 #12
+Thu Oct 27 00:06:38 end connection 127.0.0.1:13438
+Thu Oct 27 00:06:38 connection accepted from 127.0.0.1:13445 #13
+Thu Oct 27 00:06:48 end connection 127.0.0.1:13444
+Thu Oct 27 00:06:48 connection accepted from 127.0.0.1:13450 #14
+Thu Oct 27 00:06:48 end connection 127.0.0.1:13445
+Thu Oct 27 00:06:48 connection accepted from 127.0.0.1:13451 #15
+Thu Oct 27 00:06:58 end connection 127.0.0.1:13450
+Thu Oct 27 00:06:58 connection accepted from 127.0.0.1:13454 #16
+Thu Oct 27 00:06:58 end connection 127.0.0.1:13451
+Thu Oct 27 00:06:58 connection accepted from 127.0.0.1:13455 #17
+Thu Oct 27 00:07:01 connection accepted from 127.0.0.1:13456 #18
+Thu Oct 27 00:07:01 MessagingPort recv() errno:0 No error 127.0.0.1:13456
+Thu Oct 27 00:07:01 end connection 127.0.0.1:13456
+Thu Oct 27 00:07:08 end connection 127.0.0.1:13454
+Thu Oct 27 00:07:08 connection accepted from 127.0.0.1:13458 #19
+Thu Oct 27 00:07:08 end connection 127.0.0.1:13455
+Thu Oct 27 00:07:08 connection accepted from 127.0.0.1:13459 #20
+FlushViewOfFile failed 33
+Thu Oct 27 00:07:18 end connection 127.0.0.1:13458
+Thu Oct 27 00:07:18 connection accepted from 127.0.0.1:13460 #21
+Thu Oct 27 00:07:18 end connection 127.0.0.1:13459
+Thu Oct 27 00:07:18 connection accepted from 127.0.0.1:13461 #22
+Thu Oct 27 00:07:28 end connection 127.0.0.1:13460
+Thu Oct 27 00:07:28 connection accepted from 127.0.0.1:13489 #23
+Thu Oct 27 00:07:28 end connection 127.0.0.1:13461
+Thu Oct 27 00:07:28 connection accepted from 127.0.0.1:13490 #24
+Thu Oct 27 00:07:38 end connection 127.0.0.1:13489
+Thu Oct 27 00:07:38 connection accepted from 127.0.0.1:13492 #25
+Thu Oct 27 00:07:38 end connection 127.0.0.1:13490
+Thu Oct 27 00:07:38 connection accepted from 127.0.0.1:13495 #26
+Thu Oct 27 00:07:48 end connection 127.0.0.1:13492
+Thu Oct 27 00:07:48 connection accepted from 127.0.0.1:13507 #27
+Thu Oct 27 00:07:48 end connection 127.0.0.1:13495
+Thu Oct 27 00:07:48 connection accepted from 127.0.0.1:13508 #28
+Thu Oct 27 00:07:58 end connection 127.0.0.1:13507
+Thu Oct 27 00:07:58 connection accepted from 127.0.0.1:13567 #29
+Thu Oct 27 00:07:58 end connection 127.0.0.1:13508
+Thu Oct 27 00:07:58 connection accepted from 127.0.0.1:13568 #30
+Thu Oct 27 00:08:08 end connection 127.0.0.1:13567
+Thu Oct 27 00:08:08 connection accepted from 127.0.0.1:13569 #31
+Thu Oct 27 00:08:08 end connection 127.0.0.1:13568
+Thu Oct 27 00:08:08 connection accepted from 127.0.0.1:13570 #32
+Thu Oct 27 00:08:18 end connection 127.0.0.1:13569
+Thu Oct 27 00:08:18 connection accepted from 127.0.0.1:13577 #33
+Thu Oct 27 00:08:18 end connection 127.0.0.1:13570
+Thu Oct 27 00:08:18 connection accepted from 127.0.0.1:13578 #34
+Thu Oct 27 00:08:28 end connection 127.0.0.1:13577
+Thu Oct 27 00:08:28 connection accepted from 127.0.0.1:13579 #35
+Thu Oct 27 00:08:28 end connection 127.0.0.1:13578
+Thu Oct 27 00:08:28 connection accepted from 127.0.0.1:13580 #36
+Thu Oct 27 00:08:38 end connection 127.0.0.1:13579
+Thu Oct 27 00:08:38 connection accepted from 127.0.0.1:13594 #37
+Thu Oct 27 00:08:38 end connection 127.0.0.1:13580
+Thu Oct 27 00:08:38 connection accepted from 127.0.0.1:13595 #38
+Thu Oct 27 00:08:48 end connection 127.0.0.1:13594
+Thu Oct 27 00:08:48 connection accepted from 127.0.0.1:13625 #39
+Thu Oct 27 00:08:48 end connection 127.0.0.1:13595
+Thu Oct 27 00:08:48 connection accepted from 127.0.0.1:13626 #40
+Thu Oct 27 00:08:58 end connection 127.0.0.1:13625
+Thu Oct 27 00:08:58 connection accepted from 127.0.0.1:13639 #41
+Thu Oct 27 00:08:58 end connection 127.0.0.1:13626
+Thu Oct 27 00:08:58 connection accepted from 127.0.0.1:13640 #42
+Thu Oct 27 00:09:08 end connection 127.0.0.1:13639
+Thu Oct 27 00:09:08 connection accepted from 127.0.0.1:13647 #43
+Thu Oct 27 00:09:08 end connection 127.0.0.1:13640
+Thu Oct 27 00:09:08 connection accepted from 127.0.0.1:13648 #44
+Thu Oct 27 00:09:18 end connection 127.0.0.1:13647
+Thu Oct 27 00:09:18 connection accepted from 127.0.0.1:13666 #45
+Thu Oct 27 00:09:18 end connection 127.0.0.1:13648
+Thu Oct 27 00:09:18 connection accepted from 127.0.0.1:13667 #46
+Thu Oct 27 00:09:28 end connection 127.0.0.1:13666
+Thu Oct 27 00:09:28 connection accepted from 127.0.0.1:13668 #47
+Thu Oct 27 00:09:28 end connection 127.0.0.1:13667
+Thu Oct 27 00:09:28 connection accepted from 127.0.0.1:13669 #48
+Thu Oct 27 00:09:38 end connection 127.0.0.1:13668
+Thu Oct 27 00:09:38 connection accepted from 127.0.0.1:13670 #49
+Thu Oct 27 00:09:38 end connection 127.0.0.1:13669
+Thu Oct 27 00:09:38 connection accepted from 127.0.0.1:13671 #50
+Thu Oct 27 00:09:48 end connection 127.0.0.1:13670
+Thu Oct 27 00:09:48 connection accepted from 127.0.0.1:13672 #51
+Thu Oct 27 00:09:48 end connection 127.0.0.1:13671
+Thu Oct 27 00:09:48 connection accepted from 127.0.0.1:13673 #52
+Thu Oct 27 00:09:58 end connection 127.0.0.1:13672
+Thu Oct 27 00:09:58 connection accepted from 127.0.0.1:13674 #53
+Thu Oct 27 00:09:58 end connection 127.0.0.1:13673
+Thu Oct 27 00:09:58 connection accepted from 127.0.0.1:13675 #54
+Thu Oct 27 00:10:08 end connection 127.0.0.1:13674
+Thu Oct 27 00:10:08 connection accepted from 127.0.0.1:13677 #55
+Thu Oct 27 00:10:08 end connection 127.0.0.1:13675
+Thu Oct 27 00:10:08 connection accepted from 127.0.0.1:13678 #56
+Thu Oct 27 00:10:18 end connection 127.0.0.1:13677
+Thu Oct 27 00:10:18 connection accepted from 127.0.0.1:13679 #57
+Thu Oct 27 00:10:18 end connection 127.0.0.1:13678
+Thu Oct 27 00:10:18 connection accepted from 127.0.0.1:13680 #58
+Thu Oct 27 00:10:28 end connection 127.0.0.1:13679
+Thu Oct 27 00:10:28 connection accepted from 127.0.0.1:13686 #59
+Thu Oct 27 00:10:28 end connection 127.0.0.1:13680
+Thu Oct 27 00:10:28 connection accepted from 127.0.0.1:13687 #60
+Thu Oct 27 00:10:38 end connection 127.0.0.1:13686
+Thu Oct 27 00:10:38 connection accepted from 127.0.0.1:13688 #61
+Thu Oct 27 00:10:38 end connection 127.0.0.1:13687
+Thu Oct 27 00:10:38 connection accepted from 127.0.0.1:13689 #62
+Thu Oct 27 00:10:48 end connection 127.0.0.1:13688
+Thu Oct 27 00:10:48 connection accepted from 127.0.0.1:13691 #63
+Thu Oct 27 00:10:48 end connection 127.0.0.1:13689
+Thu Oct 27 00:10:48 connection accepted from 127.0.0.1:13692 #64
+Thu Oct 27 00:10:58 end connection 127.0.0.1:13691
+Thu Oct 27 00:10:58 connection accepted from 127.0.0.1:13694 #65
+Thu Oct 27 00:10:58 end connection 127.0.0.1:13692
+Thu Oct 27 00:10:58 connection accepted from 127.0.0.1:13695 #66
+Thu Oct 27 00:11:08 end connection 127.0.0.1:13694
+Thu Oct 27 00:11:08 connection accepted from 127.0.0.1:13696 #67
+Thu Oct 27 00:11:08 end connection 127.0.0.1:13695
+Thu Oct 27 00:11:08 connection accepted from 127.0.0.1:13697 #68
+Thu Oct 27 00:11:18 end connection 127.0.0.1:13696
+Thu Oct 27 00:11:18 connection accepted from 127.0.0.1:13707 #69
+Thu Oct 27 00:11:18 end connection 127.0.0.1:13697
+Thu Oct 27 00:11:18 connection accepted from 127.0.0.1:13708 #70
+Thu Oct 27 00:11:28 end connection 127.0.0.1:13707
+Thu Oct 27 00:11:28 connection accepted from 127.0.0.1:13709 #71
+Thu Oct 27 00:11:28 end connection 127.0.0.1:13708
+Thu Oct 27 00:11:28 connection accepted from 127.0.0.1:13710 #72
+Thu Oct 27 00:11:38 end connection 127.0.0.1:13709
+Thu Oct 27 00:11:38 connection accepted from 127.0.0.1:13716 #73
+Thu Oct 27 00:11:38 end connection 127.0.0.1:13710
+Thu Oct 27 00:11:38 connection accepted from 127.0.0.1:13717 #74
+Thu Oct 27 00:11:48 end connection 127.0.0.1:13716
+Thu Oct 27 00:11:48 connection accepted from 127.0.0.1:13718 #75
+Thu Oct 27 00:11:48 end connection 127.0.0.1:13717
+Thu Oct 27 00:11:48 connection accepted from 127.0.0.1:13719 #76
+Thu Oct 27 00:11:51 connection accepted from 127.0.0.1:13720 #77
+Thu Oct 27 00:11:52 building new index on { _id: 1 } for packagetravel.DBStub
+Thu Oct 27 00:11:52 Buildindex packagetravel.DBStub idxNo:0 { name: "_id_", ns: "packagetravel.DBStub", key: { _id: 1 } }
+Thu Oct 27 00:11:52 done for 0 records 0.011secs
+Thu Oct 27 00:11:52 MessagingPort recv() errno:0 No error 127.0.0.1:13720
+Thu Oct 27 00:11:52 end connection 127.0.0.1:13720
+Thu Oct 27 00:11:58 end connection 127.0.0.1:13718
+Thu Oct 27 00:11:58 connection accepted from 127.0.0.1:13722 #78
+Thu Oct 27 00:11:58 end connection 127.0.0.1:13719
+Thu Oct 27 00:11:58 connection accepted from 127.0.0.1:13723 #79
+Thu Oct 27 00:12:07 connection accepted from 127.0.0.1:13727 #80
+Thu Oct 27 00:12:08 end connection 127.0.0.1:13727
+Thu Oct 27 00:12:08 connection accepted from 127.0.0.1:13731 #81
+Thu Oct 27 00:12:08 end connection 127.0.0.1:13722
+Thu Oct 27 00:12:08 end connection 127.0.0.1:13723
+Thu Oct 27 00:12:08 connection accepted from 127.0.0.1:13732 #82
+Thu Oct 27 00:12:18 end connection 127.0.0.1:13731
+Thu Oct 27 00:12:18 connection accepted from 127.0.0.1:13733 #83
+Thu Oct 27 00:12:18 end connection 127.0.0.1:13732
+Thu Oct 27 00:12:18 connection accepted from 127.0.0.1:13734 #84
+Thu Oct 27 00:12:28 end connection 127.0.0.1:13733
+Thu Oct 27 00:12:28 connection accepted from 127.0.0.1:13735 #85
+Thu Oct 27 00:12:29 end connection 127.0.0.1:13734
+Thu Oct 27 00:12:29 connection accepted from 127.0.0.1:13736 #86
+Thu Oct 27 00:12:38 end connection 127.0.0.1:13735
+Thu Oct 27 00:12:38 connection accepted from 127.0.0.1:13737 #87
+Thu Oct 27 00:12:39 end connection 127.0.0.1:13736
+Thu Oct 27 00:12:39 connection accepted from 127.0.0.1:13738 #88
+Thu Oct 27 00:12:48 end connection 127.0.0.1:13737
+Thu Oct 27 00:12:48 connection accepted from 127.0.0.1:13739 #89
+Thu Oct 27 00:12:49 end connection 127.0.0.1:13738
+Thu Oct 27 00:12:49 connection accepted from 127.0.0.1:13740 #90
+Thu Oct 27 00:12:58 end connection 127.0.0.1:13739
+Thu Oct 27 00:12:58 connection accepted from 127.0.0.1:13741 #91
+Thu Oct 27 00:12:59 end connection 127.0.0.1:13740
+Thu Oct 27 00:12:59 connection accepted from 127.0.0.1:13742 #92
+Thu Oct 27 00:13:08 end connection 127.0.0.1:13741
+Thu Oct 27 00:13:08 connection accepted from 127.0.0.1:13743 #93
+Thu Oct 27 00:13:09 end connection 127.0.0.1:13742
+Thu Oct 27 00:13:09 connection accepted from 127.0.0.1:13744 #94
+Thu Oct 27 00:13:18 end connection 127.0.0.1:13743
+Thu Oct 27 00:13:18 connection accepted from 127.0.0.1:13745 #95
+Thu Oct 27 00:13:19 end connection 127.0.0.1:13744
+Thu Oct 27 00:13:19 connection accepted from 127.0.0.1:13746 #96
+Thu Oct 27 00:13:28 end connection 127.0.0.1:13745
+Thu Oct 27 00:13:28 connection accepted from 127.0.0.1:13747 #97
+Thu Oct 27 00:13:29 end connection 127.0.0.1:13746
+Thu Oct 27 00:13:29 connection accepted from 127.0.0.1:13748 #98
+Thu Oct 27 00:13:39 end connection 127.0.0.1:13747
+Thu Oct 27 00:13:39 connection accepted from 127.0.0.1:13749 #99
+Thu Oct 27 00:13:39 end connection 127.0.0.1:13748
+Thu Oct 27 00:13:39 connection accepted from 127.0.0.1:13750 #100
+Thu Oct 27 00:13:49 end connection 127.0.0.1:13749
+Thu Oct 27 00:13:49 connection accepted from 127.0.0.1:13751 #101
+Thu Oct 27 00:13:49 end connection 127.0.0.1:13750
+Thu Oct 27 00:13:49 connection accepted from 127.0.0.1:13752 #102
+Thu Oct 27 00:13:59 end connection 127.0.0.1:13751
+Thu Oct 27 00:13:59 connection accepted from 127.0.0.1:13753 #103
+Thu Oct 27 00:13:59 end connection 127.0.0.1:13752
+Thu Oct 27 00:13:59 connection accepted from 127.0.0.1:13754 #104
+Thu Oct 27 00:14:09 end connection 127.0.0.1:13753
+Thu Oct 27 00:14:09 connection accepted from 127.0.0.1:13755 #105
+Thu Oct 27 00:14:09 end connection 127.0.0.1:13754
+Thu Oct 27 00:14:09 connection accepted from 127.0.0.1:13756 #106
+Thu Oct 27 00:14:19 end connection 127.0.0.1:13755
+Thu Oct 27 00:14:19 connection accepted from 127.0.0.1:13757 #107
+Thu Oct 27 00:14:19 end connection 127.0.0.1:13756
+Thu Oct 27 00:14:19 connection accepted from 127.0.0.1:13758 #108
+Thu Oct 27 00:14:29 end connection 127.0.0.1:13757
+Thu Oct 27 00:14:29 connection accepted from 127.0.0.1:13759 #109
+Thu Oct 27 00:14:29 end connection 127.0.0.1:13758
+Thu Oct 27 00:14:29 connection accepted from 127.0.0.1:13760 #110
+Thu Oct 27 00:14:39 end connection 127.0.0.1:13759
+Thu Oct 27 00:14:39 connection accepted from 127.0.0.1:13761 #111
+Thu Oct 27 00:14:39 end connection 127.0.0.1:13760
+Thu Oct 27 00:14:39 connection accepted from 127.0.0.1:13762 #112
+Thu Oct 27 00:14:49 end connection 127.0.0.1:13761
+Thu Oct 27 00:14:49 connection accepted from 127.0.0.1:13763 #113
+Thu Oct 27 00:14:49 end connection 127.0.0.1:13762
+Thu Oct 27 00:14:49 connection accepted from 127.0.0.1:13764 #114
+Thu Oct 27 00:14:59 end connection 127.0.0.1:13763
+Thu Oct 27 00:14:59 connection accepted from 127.0.0.1:13765 #115
+Thu Oct 27 00:14:59 connection accepted from 127.0.0.1:13766 #116
+Thu Oct 27 00:14:59 end connection 127.0.0.1:13764
+Thu Oct 27 00:15:09 end connection 127.0.0.1:13765
+Thu Oct 27 00:15:09 connection accepted from 127.0.0.1:13768 #117
+Thu Oct 27 00:15:09 end connection 127.0.0.1:13766
+Thu Oct 27 00:15:09 connection accepted from 127.0.0.1:13769 #118
+Thu Oct 27 00:15:19 end connection 127.0.0.1:13768
+Thu Oct 27 00:15:19 connection accepted from 127.0.0.1:13770 #119
+Thu Oct 27 00:15:19 end connection 127.0.0.1:13769
+Thu Oct 27 00:15:19 connection accepted from 127.0.0.1:13771 #120
+Thu Oct 27 00:15:29 end connection 127.0.0.1:13770
+Thu Oct 27 00:15:29 connection accepted from 127.0.0.1:13777 #121
+Thu Oct 27 00:15:29 end connection 127.0.0.1:13771
+Thu Oct 27 00:15:29 connection accepted from 127.0.0.1:13778 #122
+Thu Oct 27 00:15:39 end connection 127.0.0.1:13777
+Thu Oct 27 00:15:39 connection accepted from 127.0.0.1:13779 #123
+Thu Oct 27 00:15:39 end connection 127.0.0.1:13778
+Thu Oct 27 00:15:39 connection accepted from 127.0.0.1:13780 #124
+Thu Oct 27 00:15:49 end connection 127.0.0.1:13779
+Thu Oct 27 00:15:49 connection accepted from 127.0.0.1:13782 #125
+Thu Oct 27 00:15:49 end connection 127.0.0.1:13780
+Thu Oct 27 00:15:49 connection accepted from 127.0.0.1:13783 #126
+Thu Oct 27 00:15:59 end connection 127.0.0.1:13782
+Thu Oct 27 00:15:59 connection accepted from 127.0.0.1:13785 #127
+Thu Oct 27 00:15:59 end connection 127.0.0.1:13783
+Thu Oct 27 00:15:59 connection accepted from 127.0.0.1:13786 #128
+Thu Oct 27 00:16:09 end connection 127.0.0.1:13785
+Thu Oct 27 00:16:09 connection accepted from 127.0.0.1:13787 #129
+Thu Oct 27 00:16:09 end connection 127.0.0.1:13786
+Thu Oct 27 00:16:09 connection accepted from 127.0.0.1:13788 #130
+Thu Oct 27 00:16:19 end connection 127.0.0.1:13787
+Thu Oct 27 00:16:19 connection accepted from 127.0.0.1:13790 #131
+Thu Oct 27 00:16:19 end connection 127.0.0.1:13788
+Thu Oct 27 00:16:19 connection accepted from 127.0.0.1:13791 #132
+Thu Oct 27 00:16:29 end connection 127.0.0.1:13790
+Thu Oct 27 00:16:29 connection accepted from 127.0.0.1:13792 #133
+Thu Oct 27 00:16:29 end connection 127.0.0.1:13791
+Thu Oct 27 00:16:29 connection accepted from 127.0.0.1:13793 #134
+Thu Oct 27 00:16:39 end connection 127.0.0.1:13792
+Thu Oct 27 00:16:39 connection accepted from 127.0.0.1:13799 #135
+Thu Oct 27 00:16:39 end connection 127.0.0.1:13793
+Thu Oct 27 00:16:39 connection accepted from 127.0.0.1:13800 #136
+Thu Oct 27 00:16:49 end connection 127.0.0.1:13799
+Thu Oct 27 00:16:49 connection accepted from 127.0.0.1:13801 #137
+Thu Oct 27 00:16:49 connection accepted from 127.0.0.1:13802 #138
+Thu Oct 27 00:16:49 end connection 127.0.0.1:13800
+Thu Oct 27 00:16:59 end connection 127.0.0.1:13801
+Thu Oct 27 00:16:59 connection accepted from 127.0.0.1:13805 #139
+Thu Oct 27 00:16:59 connection accepted from 127.0.0.1:13806 #140
+Thu Oct 27 00:16:59 end connection 127.0.0.1:13802
+Thu Oct 27 00:17:09 end connection 127.0.0.1:13805
+Thu Oct 27 00:17:09 connection accepted from 127.0.0.1:13808 #141
+Thu Oct 27 00:17:09 end connection 127.0.0.1:13806
+Thu Oct 27 00:17:09 connection accepted from 127.0.0.1:13809 #142
+Thu Oct 27 00:17:19 end connection 127.0.0.1:13808
+Thu Oct 27 00:17:19 connection accepted from 127.0.0.1:13810 #143
+Thu Oct 27 00:17:19 end connection 127.0.0.1:13809
+Thu Oct 27 00:17:19 connection accepted from 127.0.0.1:13811 #144
+Thu Oct 27 00:17:29 end connection 127.0.0.1:13810
+Thu Oct 27 00:17:29 connection accepted from 127.0.0.1:13813 #145
+Thu Oct 27 00:17:29 end connection 127.0.0.1:13811
+Thu Oct 27 00:17:29 connection accepted from 127.0.0.1:13814 #146
+Thu Oct 27 00:17:39 end connection 127.0.0.1:13813
+Thu Oct 27 00:17:39 connection accepted from 127.0.0.1:13815 #147
+Thu Oct 27 00:17:39 end connection 127.0.0.1:13814
+Thu Oct 27 00:17:39 connection accepted from 127.0.0.1:13816 #148
+Thu Oct 27 00:17:49 end connection 127.0.0.1:13815
+Thu Oct 27 00:17:49 connection accepted from 127.0.0.1:13822 #149
+Thu Oct 27 00:17:49 end connection 127.0.0.1:13816
+Thu Oct 27 00:17:49 connection accepted from 127.0.0.1:13823 #150
+Thu Oct 27 00:17:59 end connection 127.0.0.1:13822
+Thu Oct 27 00:17:59 connection accepted from 127.0.0.1:13824 #151
+Thu Oct 27 00:17:59 end connection 127.0.0.1:13823
+Thu Oct 27 00:17:59 connection accepted from 127.0.0.1:13825 #152
+Thu Oct 27 00:18:09 end connection 127.0.0.1:13824
+Thu Oct 27 00:18:09 connection accepted from 127.0.0.1:13827 #153
+Thu Oct 27 00:18:09 end connection 127.0.0.1:13825
+Thu Oct 27 00:18:09 connection accepted from 127.0.0.1:13828 #154
+Thu Oct 27 00:18:19 end connection 127.0.0.1:13827
+Thu Oct 27 00:18:19 connection accepted from 127.0.0.1:13829 #155
+Thu Oct 27 00:18:19 end connection 127.0.0.1:13828
+Thu Oct 27 00:18:19 connection accepted from 127.0.0.1:13830 #156
+Thu Oct 27 00:18:29 end connection 127.0.0.1:13829
+Thu Oct 27 00:18:29 connection accepted from 127.0.0.1:13831 #157
+Thu Oct 27 00:18:29 end connection 127.0.0.1:13830
+Thu Oct 27 00:18:29 connection accepted from 127.0.0.1:13832 #158
+Thu Oct 27 00:18:39 end connection 127.0.0.1:13831
+Thu Oct 27 00:18:39 connection accepted from 127.0.0.1:13833 #159
+Thu Oct 27 00:18:39 end connection 127.0.0.1:13832
+Thu Oct 27 00:18:39 connection accepted from 127.0.0.1:13834 #160
+Thu Oct 27 00:18:49 end connection 127.0.0.1:13833
+Thu Oct 27 00:18:49 connection accepted from 127.0.0.1:13835 #161
+Thu Oct 27 00:18:49 end connection 127.0.0.1:13834
+Thu Oct 27 00:18:49 connection accepted from 127.0.0.1:13836 #162
+Thu Oct 27 00:18:59 end connection 127.0.0.1:13835
+Thu Oct 27 00:18:59 connection accepted from 127.0.0.1:13837 #163
+Thu Oct 27 00:18:59 end connection 127.0.0.1:13836
+Thu Oct 27 00:18:59 connection accepted from 127.0.0.1:13838 #164
+Thu Oct 27 00:19:09 end connection 127.0.0.1:13837
+Thu Oct 27 00:19:09 connection accepted from 127.0.0.1:13839 #165
+Thu Oct 27 00:19:09 end connection 127.0.0.1:13838
+Thu Oct 27 00:19:09 connection accepted from 127.0.0.1:13840 #166
+Thu Oct 27 00:19:19 end connection 127.0.0.1:13839
+Thu Oct 27 00:19:19 connection accepted from 127.0.0.1:13841 #167
+Thu Oct 27 00:19:19 end connection 127.0.0.1:13840
+Thu Oct 27 00:19:19 connection accepted from 127.0.0.1:13842 #168
+Thu Oct 27 00:19:29 end connection 127.0.0.1:13841
+Thu Oct 27 00:19:29 connection accepted from 127.0.0.1:13844 #169
+Thu Oct 27 00:19:29 end connection 127.0.0.1:13842
+Thu Oct 27 00:19:29 connection accepted from 127.0.0.1:13845 #170
+Thu Oct 27 00:19:39 end connection 127.0.0.1:13844
+Thu Oct 27 00:19:39 connection accepted from 127.0.0.1:13846 #171
+Thu Oct 27 00:19:39 end connection 127.0.0.1:13845
+Thu Oct 27 00:19:39 connection accepted from 127.0.0.1:13847 #172
+Thu Oct 27 00:19:49 end connection 127.0.0.1:13846
+Thu Oct 27 00:19:49 connection accepted from 127.0.0.1:13848 #173
+Thu Oct 27 00:19:49 end connection 127.0.0.1:13847
+Thu Oct 27 00:19:49 connection accepted from 127.0.0.1:13849 #174
+Thu Oct 27 00:19:59 end connection 127.0.0.1:13848
+Thu Oct 27 00:19:59 connection accepted from 127.0.0.1:13850 #175
+Thu Oct 27 00:19:59 end connection 127.0.0.1:13849
+Thu Oct 27 00:19:59 connection accepted from 127.0.0.1:13851 #176
+Thu Oct 27 00:20:09 end connection 127.0.0.1:13850
+Thu Oct 27 00:20:09 connection accepted from 127.0.0.1:13853 #177
+Thu Oct 27 00:20:09 end connection 127.0.0.1:13851
+Thu Oct 27 00:20:09 connection accepted from 127.0.0.1:13854 #178
+Thu Oct 27 00:20:19 end connection 127.0.0.1:13853
+Thu Oct 27 00:20:19 connection accepted from 127.0.0.1:13855 #179
+Thu Oct 27 00:20:19 end connection 127.0.0.1:13854
+Thu Oct 27 00:20:19 connection accepted from 127.0.0.1:13856 #180
+Thu Oct 27 00:20:29 end connection 127.0.0.1:13855
+Thu Oct 27 00:20:29 connection accepted from 127.0.0.1:13862 #181
+Thu Oct 27 00:20:29 end connection 127.0.0.1:13856
+Thu Oct 27 00:20:29 connection accepted from 127.0.0.1:13863 #182
+Thu Oct 27 00:20:39 end connection 127.0.0.1:13862
+Thu Oct 27 00:20:39 connection accepted from 127.0.0.1:13864 #183
+Thu Oct 27 00:20:39 end connection 127.0.0.1:13863
+Thu Oct 27 00:20:39 connection accepted from 127.0.0.1:13865 #184
+Thu Oct 27 00:20:49 end connection 127.0.0.1:13864
+Thu Oct 27 00:20:49 connection accepted from 127.0.0.1:13867 #185
+Thu Oct 27 00:20:49 end connection 127.0.0.1:13865
+Thu Oct 27 00:20:49 connection accepted from 127.0.0.1:13868 #186
+Thu Oct 27 00:20:59 end connection 127.0.0.1:13867
+Thu Oct 27 00:20:59 connection accepted from 127.0.0.1:13870 #187
+Thu Oct 27 00:20:59 end connection 127.0.0.1:13868
+Thu Oct 27 00:20:59 connection accepted from 127.0.0.1:13871 #188
+Thu Oct 27 00:21:09 end connection 127.0.0.1:13870
+Thu Oct 27 00:21:09 connection accepted from 127.0.0.1:13872 #189
+Thu Oct 27 00:21:09 end connection 127.0.0.1:13871
+Thu Oct 27 00:21:09 connection accepted from 127.0.0.1:13873 #190
+Thu Oct 27 00:21:19 end connection 127.0.0.1:13872
+Thu Oct 27 00:21:19 connection accepted from 127.0.0.1:13875 #191
+Thu Oct 27 00:21:19 end connection 127.0.0.1:13873
+Thu Oct 27 00:21:19 connection accepted from 127.0.0.1:13876 #192
+Thu Oct 27 00:21:29 end connection 127.0.0.1:13875
+Thu Oct 27 00:21:29 connection accepted from 127.0.0.1:13877 #193
+Thu Oct 27 00:21:29 end connection 127.0.0.1:13876
+Thu Oct 27 00:21:29 connection accepted from 127.0.0.1:13878 #194
+Thu Oct 27 00:21:39 end connection 127.0.0.1:13877
+Thu Oct 27 00:21:39 connection accepted from 127.0.0.1:13884 #195
+Thu Oct 27 00:21:39 end connection 127.0.0.1:13878
+Thu Oct 27 00:21:39 connection accepted from 127.0.0.1:13885 #196
+Thu Oct 27 00:21:49 end connection 127.0.0.1:13884
+Thu Oct 27 00:21:49 connection accepted from 127.0.0.1:13886 #197
+Thu Oct 27 00:21:49 end connection 127.0.0.1:13885
+Thu Oct 27 00:21:49 connection accepted from 127.0.0.1:13887 #198
+Thu Oct 27 00:21:59 end connection 127.0.0.1:13886
+Thu Oct 27 00:21:59 end connection 127.0.0.1:13887
+Thu Oct 27 00:21:59 connection accepted from 127.0.0.1:13890 #199
+Thu Oct 27 00:22:09 end connection 127.0.0.1:13890
+Thu Oct 27 00:22:09 connection accepted from 127.0.0.1:13892 #200
+Thu Oct 27 00:22:19 end connection 127.0.0.1:13892
+Thu Oct 27 00:29:05  CTRL_CLOSE_EVENT signal
+Thu Oct 27 00:29:05 got kill or ctrl-c signal, will terminate after current cmd ends
+Thu Oct 27 00:29:05 now exiting
+Thu Oct 27 00:29:05  dbexit: 
+Thu Oct 27 00:29:05 	 shutdown: going to close listening sockets...
+Thu Oct 27 00:29:05 	 going to close listening socket: 160
+Thu Oct 27 00:29:05 	 going to close listening socket: 172
+Thu Oct 27 00:29:05 Listener: accept() returns -1 errno:0 No error
+Thu Oct 27 00:29:05 MiniWebServer: accept() returns -1 errno:0 No error
+Thu Oct 27 00:29:05 	 shutdown: going to flush oplog...
+Thu Oct 27 00:29:05 	 shutdown: going to close sockets...
+Thu Oct 27 00:29:05 	 shutdown: waiting for fs preallocator...
+Thu Oct 27 00:29:05 	 shutdown: closing all files...
+Thu Oct 27 00:29:05      closeAllFiles() finished
+Thu Oct 27 00:29:05  dbexit: really exiting now
