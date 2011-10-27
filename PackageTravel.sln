@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DEDD0A0F-FAEE-4F82-94E7-C74841B9A999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C069F7B3-FC0D-410E-987A-A27578A8DB6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{77A1A4D2-7249-49D6-8603-3586399E7611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{84EFD7C8-30A8-471C-8526-0D0A346FD56A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3B844DED-0D3A-4ADF-A4AA-EDA6A72C1D83}"
+	ProjectSection(SolutionItems) = preProject
+		src\Library\Common.Logging.dll = src\Library\Common.Logging.dll
+		src\Library\Common.Logging.Log4Net.dll = src\Library\Common.Logging.Log4Net.dll
+		src\Library\log4net.dll = src\Library\log4net.dll
+		src\Library\Moq.dll = src\Library\Moq.dll
+		src\Library\Ninject.dll = src\Library\Ninject.dll
+		src\Library\Norm.dll = src\Library\Norm.dll
+		src\Library\nunit.framework.dll = src\Library\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{4D922A8F-7AA4-40CB-9B94-E234A27E4A57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C17E95C6-FF56-4704-A907-02AA04090506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageTravel.UnitTest", "src\PackageTravel.UnitTest\PackageTravel.UnitTest.csproj", "{018D7852-960D-42D1-AF3F-6E14DFF7DE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTService", "src\PTService\PTService.csproj", "{3E671782-3E87-490B-B3A2-C665FAF0714C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTSpider", "src\PTSpider\PTSpider\PTSpider.csproj", "{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTCore", "src\PTCore\PTCore.csproj", "{820A76F8-AC62-4E2D-8837-1B058C50CAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTAPI", "src\PTAPI\PTAPI.csproj", "{CF53AC01-5842-481A-B98D-4BA81273C749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTRepository", "src\PTRepository\PTRepository.csproj", "{1BF009E0-9149-4F7C-8382-FEC316D9A712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTDomain", "src\PTDomain\PTDomain.csproj", "{7C95AC88-89C3-49DC-9125-A07D6116AB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageTravel", "src\PackageTravel\PackageTravel.csproj", "{E16D02A9-955C-4AEB-BA32-77B353FC89EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018D7852-960D-42D1-AF3F-6E14DFF7DE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018D7852-960D-42D1-AF3F-6E14DFF7DE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018D7852-960D-42D1-AF3F-6E14DFF7DE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018D7852-960D-42D1-AF3F-6E14DFF7DE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E671782-3E87-490B-B3A2-C665FAF0714C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E671782-3E87-490B-B3A2-C665FAF0714C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E671782-3E87-490B-B3A2-C665FAF0714C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E671782-3E87-490B-B3A2-C665FAF0714C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820A76F8-AC62-4E2D-8837-1B058C50CAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820A76F8-AC62-4E2D-8837-1B058C50CAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820A76F8-AC62-4E2D-8837-1B058C50CAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820A76F8-AC62-4E2D-8837-1B058C50CAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF53AC01-5842-481A-B98D-4BA81273C749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF53AC01-5842-481A-B98D-4BA81273C749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF53AC01-5842-481A-B98D-4BA81273C749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF53AC01-5842-481A-B98D-4BA81273C749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF009E0-9149-4F7C-8382-FEC316D9A712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF009E0-9149-4F7C-8382-FEC316D9A712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF009E0-9149-4F7C-8382-FEC316D9A712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF009E0-9149-4F7C-8382-FEC316D9A712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C95AC88-89C3-49DC-9125-A07D6116AB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C95AC88-89C3-49DC-9125-A07D6116AB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C95AC88-89C3-49DC-9125-A07D6116AB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C95AC88-89C3-49DC-9125-A07D6116AB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16D02A9-955C-4AEB-BA32-77B353FC89EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16D02A9-955C-4AEB-BA32-77B353FC89EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16D02A9-955C-4AEB-BA32-77B353FC89EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16D02A9-955C-4AEB-BA32-77B353FC89EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E16D02A9-955C-4AEB-BA32-77B353FC89EE} = {DEDD0A0F-FAEE-4F82-94E7-C74841B9A999}
+		{3E671782-3E87-490B-B3A2-C665FAF0714C} = {C069F7B3-FC0D-410E-987A-A27578A8DB6B}
+		{594E29F3-17C6-4C84-9D45-7F3DFB4D8C35} = {C069F7B3-FC0D-410E-987A-A27578A8DB6B}
+		{1BF009E0-9149-4F7C-8382-FEC316D9A712} = {84EFD7C8-30A8-471C-8526-0D0A346FD56A}
+		{7C95AC88-89C3-49DC-9125-A07D6116AB7B} = {84EFD7C8-30A8-471C-8526-0D0A346FD56A}
+		{820A76F8-AC62-4E2D-8837-1B058C50CAF9} = {77A1A4D2-7249-49D6-8603-3586399E7611}
+		{CF53AC01-5842-481A-B98D-4BA81273C749} = {4D922A8F-7AA4-40CB-9B94-E234A27E4A57}
+		{018D7852-960D-42D1-AF3F-6E14DFF7DE84} = {C17E95C6-FF56-4704-A907-02AA04090506}
+	EndGlobalSection
+EndGlobal
