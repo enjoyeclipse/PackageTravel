@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RoadMapServiceTester.cs" />
     <Compile Include="TestStub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DBTestStub.cs" />
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\PTRepository\PTRepository.csproj">
       <Project>{1BF009E0-9149-4F7C-8382-FEC316D9A712}</Project>
       <Name>PTRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PTService\PTService.csproj">
+      <Project>{3E671782-3E87-490B-B3A2-C665FAF0714C}</Project>
+      <Name>PTService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

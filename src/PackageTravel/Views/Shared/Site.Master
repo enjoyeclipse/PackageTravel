@@ -1,40 +1,89 @@
 <%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
-    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-</head>
+<!doctype html> 
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]--> 
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]--> 
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]--> 
 
-<body>
-    <div class="page">
+<head> 
+ 
+	<!-- Basic Page Needs
+  ================================================== --> 
+	<meta charset="gb2312" /> 
+	<title>口袋旅行 - 你的交互式旅行手册</title> 
+	<meta name="description" content=""> 
+	<meta name="author" content=""> 
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
+	
+	<!-- Mobile Specific Metas
+  ================================================== --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	
+	<!-- CSS
+  ================================================== --> 
+	<link rel="stylesheet" href="stylesheets/base.css" /> 
+	<link rel="stylesheet" href="stylesheets/skeleton.css" /> 
+	<link rel="stylesheet" href="stylesheets/layout.css" /> 
+	<link rel="stylesheet" href="stylesheets/triposo.css" /> 
+	
+	<!-- Favicons
+	================================================== --> 
+	<link rel="shortcut icon" href="/images/favicon.ico" /> 
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" /> 
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" /> 
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" /> 
+	<title>
+	    <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+</head> 
+<body> 
+    <!--顶部-->
+	<div id="menubar"> 
+		<div class="container"> 
+			<div class="four columns alpha"> 
+				<a href="/" style="">LOGO</a> 
+			</div> 
+			
+			<div class="twelve columns omega"> 
+				
+				<ul class="menu"> 
+					<li class="active-home"><a href="/">首页</a></li> 
+					<li><a href="/team">关于团队</a></li> 
+                    <li><a href="/Join">加入我们</a></li> 
+					
+          
+					
+				</ul> 
+				
+				
+				
+			</div> 
+			
+		</div> 
+	</div> 
+        
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    
+    <!--底部-->
+    <div id="footerbar"> 
+        <div class="container"> 
+	<hr /> 
+	<div class="doc-section" id="social"> 
+		<div class="two columns alpha"> 
+			<iframe src="http://www.facebook.com/plugins/like.php?app_id=153593834719341&amp;href&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe> 
+		</div> 
+		<div class="two columns omega"> 
+			<a href="http://twitter.com/triposo" class="twitter-follow-button" data-show-count="false">关注口袋旅行</a> 
+			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script> 
+		</div> 
+	</div> 
 
-        <div id="header">
-            <div id="title">
-                <h1>My MVC Application</h1>
-            </div>
-              
-            <div id="logindisplay">
-                <% Html.RenderPartial("LogOnUserControl"); %>
-            </div> 
-            
-            <div id="menucontainer">
-            
-                <ul id="menu">              
-                    <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
-                    <li><%= Html.ActionLink("About", "About", "Home")%></li>
-                </ul>
-            
-            </div>
-        </div>
+</div> 
+    </div> 
 
-        <div id="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-
-            <div id="footer">
-            </div>
-        </div>
-    </div>
+        
 </body>
 </html>

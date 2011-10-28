@@ -54,6 +54,7 @@
     <Compile Include="PackageBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RaidersPackageService.cs" />
+    <Compile Include="RoadMapService.cs" />
     <Compile Include="ServiceNinject.cs" />
     <Compile Include="WeatherPackageService.cs" />
   </ItemGroup>

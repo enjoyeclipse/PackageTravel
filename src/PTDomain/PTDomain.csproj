@@ -52,6 +52,7 @@
     <Compile Include="GalleryContract.cs" />
     <Compile Include="PhotoContract.cs" />
     <Compile Include="PositionContract.cs" />
+    <Compile Include="RoadMapContract.cs" />
     <Compile Include="ShopContract.cs" />
     <Compile Include="TravelContextContract.cs" />
     <Compile Include="TravelResultContract.cs" />

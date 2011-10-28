@@ -11,12 +11,15 @@ namespace PackageTravel.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
-
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult Join()
         {
             return View();
         }

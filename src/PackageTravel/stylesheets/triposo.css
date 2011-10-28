@@ -1,0 +1,226 @@
+	#menubar {
+		background-color: #000;
+		border-bottom: 5px solid #7ebade;
+		padding: 32px 0 32px 0;
+	}
+	
+	#headerbar {
+		background: #e2eef5 url("/images/headerbg.jpg") no-repeat center top;
+		margin-bottom: 64px;
+	}
+	
+
+	.container { padding-top: 0;}
+
+	
+	#footerbar {
+		margin-bottom: 100px;
+	}
+
+/* MENUBAR :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+	
+	#menubar ul {
+		margin: 14px 0 0 0;
+		float: right;
+	}
+	
+	#menubar li {
+		float: left;
+		padding-left: 16px;
+	}
+
+	#menubar li a{
+		text-decoration: none;
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	#menubar ul.highlights li a:hover {
+		color: #e2eef5;
+	}
+	#menubar ul.highlights li a {
+		color: #7ebade;
+	}
+	
+	#menubar ul.menu {
+		margin-left: 32px;
+	}
+	
+	#menubar ul.menu li a {
+		color: #fff;
+	}
+
+	#menubar ul.menu li a:hover {
+		color: #7ebade;
+	}
+
+	#menubar li.social a img {
+		padding-top: 3px;
+	}
+	
+	#menubar li.active a {
+		border-bottom: 1px solid #fff;
+	}
+	
+	#menubar ul.highlights li.active a {
+		border-bottom: 1px solid #7ebade;
+	}
+	
+
+/* HEADERBAR :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+	
+	#headerbar { 
+		text-align: center;
+	}
+	
+	#headerbar header {
+		padding: 40px 0 0 0;
+	}
+	
+	#headerbar h1 {
+		font-family: "Georgia","Times New Roman",Helvetica,Arial,sans-serif;
+	    font-size: 48px;
+	    font-weight: normal;
+	    letter-spacing: -1px;
+	    line-height: 54px;
+		color: #4c7892;
+		padding-top: 10px;
+	}
+	
+	#headerbar h1 span { 
+		color: #000;
+	}
+	
+
+/* Big action ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	a.bigaction {
+		display: block;
+		width: 282px;
+		height: 70px;
+		overflow: hidden;
+		background: transparent url("images/appstore.png") no-repeat left top;
+		text-decoration: none;
+	}
+	
+	a.bigaction.android {
+		background-image: url("../images/androidmarket.png");
+	}
+	
+	a.bigaction:hover {
+		background-position: -282px;
+	}
+	
+
+/* Sub menu ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+  ul.sub-menu {
+    
+  }
+
+  ul.sub-menu li {
+    background: transparent url("img/bullet.gif") no-repeat left 6px;
+    padding-left: 10px;
+    margin-bottom: 4px;
+  }
+  
+  ul.sub-menu li.active {
+    background-image: url("img/bullet_active.gif");
+  }
+  ul.sub-menu li a {
+    text-decoration: none;
+  }
+
+  ul.sub-menu li a:hover {
+    text-decoration: underline;
+  }
+  ul.sub-menu li.active a {
+    color: #7ebade;
+  }  
+  
+
+/* Labs ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+	ul.experiment-list {
+		margin-top: 40px;
+	}
+	
+	ul.experiment-list li {
+		margin-bottom: 40px;
+		overflow: hidden;
+	}
+	
+	ul.experiment-list li a.thumb { 
+		float: left;
+		margin-right: 20px;
+	}
+	ul.experiment-list li a.thumb img {
+		display: block;
+		width: 340px;
+		height: 132px;
+	} 
+
+	ul.experiment-list li div.description{ 
+		width: 340px;
+		float: left;
+	}
+
+
+/* Forms :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+  input.input-large {
+    width: 440px;
+    height: 52px;
+    background: transparent url("img/big_input_background.png") no-repeat left top;
+    border: 0;
+    font-size: 24px;
+    padding: 0 10px 0 10px;
+    margin-right: 5px;
+  }
+  
+  ::-webkit-input-placeholder {
+      color:    #c5c5c5;
+      font-style: italic;
+  }
+  :-moz-placeholder {
+      color:    #c5c5c5;
+      font-style: italic;
+  }
+/* Global overrides ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	h2,h3,h4,h5,h6 {
+		color: #7ebade;
+	}
+	body{ color: #424242;}
+	
+	form { margin: 0; padding: 0;}
+	h3 { 
+		font-size: 20px;
+		color: #424242;
+	}
+	
+	h4 {
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: #424242;
+	}
+	
+	
+	a.btn {
+	  display: inline-block;
+	  vertical-align: top;
+	  background-position: left top;
+	  overflow: hidden;
+	  padding: 0; margin: 0;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+	
+	a.btn:hover {
+	  background-position: left bottom;
+	}
+	
+	a.button-go {
+    height: 52px;
+    width: 150px;
+    background: transparent url("img/button_go.png");
+	}
